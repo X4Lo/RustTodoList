@@ -13,8 +13,6 @@ A simple Rust application to manage your tasks with both interactive and command
   - `--remove <id>`: Remove a task by ID.
   - `--update <id> <status>`: Update a task's status (e.g., `doing`, `done`).
 
----
-
 ## Installation
 1. Ensure you have Rust installed: [rust-lang.org](https://www.rust-lang.org/tools/install).
 2. Clone the repository or download the source code.
@@ -22,8 +20,6 @@ A simple Rust application to manage your tasks with both interactive and command
    ```bash
    cargo build --release
    ```
-
----
 
 ## Usage
 
@@ -53,13 +49,9 @@ rust_todo_list.exe --update 11 doing
 
 > Replace `11` with the actual task ID and `doing` with the desired status (`todo`, `doing`, or `done`).
 
----
-
 ## File Structure
 - **`main.rs`**: Application logic.
 - **`tasks.txt`**: Persistent storage for tasks.
-
----
 
 ## Notes
 - Ensure `tasks.txt` exists in the same directory as the binary.
