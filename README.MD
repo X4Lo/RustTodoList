@@ -1,4 +1,4 @@
-# Rust Todo Lis
+# Rust Todo List
 
 A simple Rust application to manage your tasks with basic CRUD operations.
 
